@@ -68,9 +68,9 @@ print("Average confirmed:", df["Confirmed"].mean())
 print("Max confirmed:", df["Confirmed"].max())
 print("Min confirmed:", df["Confirmed"].min())
 
-# -----------------------
+
 # NUMPY OPERATIONS
-# -----------------------
+
 
 cases = df["Confirmed"].values
 
@@ -90,4 +90,5 @@ normalized = (cases - np.min(cases)) / (np.max(cases) - np.min(cases))
 print("Normalized sample:", normalized[:5])
 
 print("Square root sample:", np.sqrt(cases[:5]))
+
 print("Log sample:", np.log(cases[:5]))
