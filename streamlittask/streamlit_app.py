@@ -6,10 +6,6 @@ st.title("Streamlit Introduction App")
 
 st.markdown("### Basic Streamlit Demo")
 
-
-st.image("C:\Users\Administrator\Documents\Sourcesysintern\streamlittask.png", width=200)
-
-
 name = st.text_input("Enter your Name")
 
 
