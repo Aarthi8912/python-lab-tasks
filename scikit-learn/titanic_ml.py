@@ -12,10 +12,6 @@ print(df.head())
 print("\nCOLUMNS")
 print(df.columns)
 
-# -----------------------
-# DATA CLEANING
-# -----------------------
-
 
 df = df[["Survived", "Pclass", "Age", "Fare"]]
 
